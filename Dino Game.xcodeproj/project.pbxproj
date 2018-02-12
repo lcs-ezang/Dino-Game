@@ -15,6 +15,9 @@
 		C1112EDF200D5D70006AF7F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1112EDD200D5D70006AF7F5 /* Main.storyboard */; };
 		C1112EE1200D5D70006AF7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1112EE0200D5D70006AF7F5 /* Assets.xcassets */; };
 		C1112EE4200D5D70006AF7F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1112EE2200D5D70006AF7F5 /* LaunchScreen.storyboard */; };
+		C1112EEE200D5F78006AF7F5 /* DinoGameRedDino.png in Resources */ = {isa = PBXBuildFile; fileRef = C1112EED200D5F78006AF7F5 /* DinoGameRedDino.png */; };
+		C1112EF2200D61A9006AF7F5 /* DinoGameDinosTop.png in Resources */ = {isa = PBXBuildFile; fileRef = C1112EF1200D61A9006AF7F5 /* DinoGameDinosTop.png */; };
+		C1112EF4200D624A006AF7F5 /* DinoGameDinosBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = C1112EF3200D624A006AF7F5 /* DinoGameDinosBottom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		C1112EE0200D5D70006AF7F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1112EE3200D5D70006AF7F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1112EE5200D5D70006AF7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1112EED200D5F78006AF7F5 /* DinoGameRedDino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DinoGameRedDino.png; path = ../../DinoGameRedDino.png; sourceTree = "<group>"; };
+		C1112EF1200D61A9006AF7F5 /* DinoGameDinosTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DinoGameDinosTop.png; path = ../../DinoGameDinosTop.png; sourceTree = "<group>"; };
+		C1112EF3200D624A006AF7F5 /* DinoGameDinosBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DinoGameDinosBottom.png; path = ../../DinoGameDinosBottom.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,9 @@
 			children = (
 				C1112ED2200D5D70006AF7F5 /* Dino Game */,
 				C1112ED1200D5D70006AF7F5 /* Products */,
+				C1112EED200D5F78006AF7F5 /* DinoGameRedDino.png */,
+				C1112EF1200D61A9006AF7F5 /* DinoGameDinosTop.png */,
+				C1112EF3200D624A006AF7F5 /* DinoGameDinosBottom.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,10 +141,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1112EF4200D624A006AF7F5 /* DinoGameDinosBottom.png in Resources */,
 				C1112EDF200D5D70006AF7F5 /* Main.storyboard in Resources */,
+				C1112EF2200D61A9006AF7F5 /* DinoGameDinosTop.png in Resources */,
 				C1112ED6200D5D70006AF7F5 /* GameScene.sks in Resources */,
 				C1112EE1200D5D70006AF7F5 /* Assets.xcassets in Resources */,
 				C1112EE4200D5D70006AF7F5 /* LaunchScreen.storyboard in Resources */,
+				C1112EEE200D5F78006AF7F5 /* DinoGameRedDino.png in Resources */,
 				C1112ED8200D5D70006AF7F5 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
